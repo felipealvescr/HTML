@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
 * { margin: 0px; padding: 0px; }
+
+html { background-image: url(./images/fundo.png); }
+
+#cabecalho { width: 97.8%; height: 50px; background-color: #faf6e3; padding: 10px 0px 0px 30px; }
+
+#titulo01 { display: inline-block; font-weight: 600; font-family: 'Alex Brush'; color: #91917d;}
+
+#navegacao { display: inline-block; margin-left: 55%; color: #91917d; text-transform: capitalize;}
+
+#cabecalho_img { background: url(./images/capa.png) no-repeat; background-size: cover; width: 100%; height: 550px;}
+
+main {  }
+
+main h2 { text-align: center; width: 100%; height: 50px; margin-top: 40px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+
+main p { width: 70%; height: 100px; margin: 0px auto; text-align: justify; font-weight: 300;}
+
+footer > h4 { text-align: center; margin: 20px 0px; text-transform: capitalize;}
+
+.link { text-decoration: none; color: #91917d; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 400;}
+
+.link:hover { text-decoration: none; color: black; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 400;}
+
