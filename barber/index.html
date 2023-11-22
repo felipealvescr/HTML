@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Dev Barber - sua barbearia</title>
 </head>
 
@@ -33,7 +35,7 @@
                 </div>
 
                 <div>
-                    <a class="header-button" href="#">
+                    <a class="header-button" href="https://wa.me/5511987654321" target="_blank">
                         Agendar horário
                     </a>
                 </div>
@@ -42,7 +44,7 @@
             <main class="hero container">
                 <h1>Estilo é um reflexo da sua atitude e sua personalidade.</h1>
                 <p>Horário de funcionamento: 09:00 ás 19:00</p>
-                <a href="#" class="button-contact" target="_blank">
+                <a href="https://wa.me/5511987654321" class=" button-contact" target="_blank">
                     Agendar horário
                 </a>
             </main>
@@ -65,6 +67,78 @@
         </div>
     </section>
 
+    <!-- SERVICES -->
+
+    <section class="services">
+        <div class="services-content container">
+            <h2>Serviços</h2>
+            <p>Transforme-se com nossos serviços premium! Experimente um corte de cabelo moderno, uma barba completa impecável ou a combinação perfeita de corte e barba para um visual irresistível.</p>
+        </div>
+
+        <section class="haircuts">
+            <div class="haircut">
+                <img src="./images/corte1.png" alt="corte normal">
+                <div class="haircut-info">
+                    <h3>Corte Cabelo</h3>
+                    <button>R$ 45,00</button>
+                </div>
+            </div>
+
+            <div class="haircut">
+                <img src="./images/corte2.png" alt="Barba completa">
+                <div class="haircut-info">
+                    <h3>Barba Completa</h3>
+                    <button>R$ 20,00</button>
+                </div>
+            </div>
+
+            <div class="haircut">
+                <img src="./images/corte3.png" alt="Corte de barba e cabelo">
+                <div class="haircut-info">
+                    <h3>Corte e Barba</h3>
+                    <button>R$ 60,00</button>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <!-- FOOTER -->
+
+    <div class="services">
+        <h2>Venha nos conhecer</h2>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6334.823520461936!2d-38.519317656755476!3d-3.7454297239967866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749b6d9cdacad%3A0x9c70be44d90fe559!2sBarber%20Shop%20Old%20Cut%3A%20Barbearia%2C%20Barbeiro%2C%20Hidrata%C3%A7%C3%A3o%2C%20Fortaleza%20CE!5e1!3m2!1spt-BR!2sbr!4v1700681149982!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+        </div>
+
+        <div>
+            <img src="./images/logo.svg" alt="Logo da dev barber">
+        </div>
+
+        <p> &copy; Dev Barbearia 2023 | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Button Whatsapp -->
+
+    <a href="https://wa.me/5511987654321" class="btn-whatsapp" target="_blank">
+        <img src="./images/whatssapp.svg" alt="Botao whatssapp">
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
