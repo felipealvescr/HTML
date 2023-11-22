@@ -1,6 +1,6 @@
 * { font-size: 26px; margin: 0px; padding: 0px; box-sizing: border-box; }
 
-body { background-color: thistle; display: grid; width: 100vw; height: 100vh; grid-template-columns: 20% 60% 20%; grid-template-rows: 10% 5% 70% 5% 10%; grid-template-areas:
+body { background-color: thistle; display: grid; width: 100vw; height: 100vh; grid-template-columns: 20% 60% 20%; grid-template-rows: 10% 5% 70% 5% 5%; grid-template-areas:
     "header header header"
     "nav article ads" 
     "nav article ads"
