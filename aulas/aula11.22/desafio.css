@@ -1,0 +1,23 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { background-color: #000000; color: black; display: grid; width: 100vw; height: 100vh; gap: 1%;
+    grid-template-columns: 27% 27% 12% 12% 18%;
+    grid-template-rows: 8% 25% 35% 29%;
+    grid-template-areas: 
+"branco1 branco1 branco1 branco1 amarelo1"
+"branco2 branco2 azul azul branco3"
+"amarelo2 vermelho azul azul branco3"
+"amarelo2 vermelho branco4 preto branco3"
+; }
+
+h1 { background-color: #ffffff; grid-area: branco1; }
+h2 { background-color: #ffffff; grid-area: branco2; }
+h3 { background-color: #ffffff; grid-area: branco3; }
+h4 { background-color: #ffffff; grid-area: branco4; }
+h5 { background-color: yellow; grid-area: amarelo1; }
+h6 { background-color: yellow; grid-area: amarelo2;}
+article { background-color: #000000; grid-area: preto;}
+section { background-color: red; grid-area: vermelho; }
+div { background-color: blue; grid-area: azul; }
+
+p { font-size: 16px; font-family: 'Times New Roman'; font-weight: 100; margin: 10px;}
