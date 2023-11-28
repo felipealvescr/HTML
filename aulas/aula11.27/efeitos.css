@@ -1,1 +1,9 @@
 * { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+.fade { width: 200px; height: 200px; margin:30px auto; background-color: #ac0a0a; text-align: center; color: #ffffff; font-size: 42px; opacity: 0.5; }
+
+.fade:hover { opacity: 1; transition: 0.4s;}
+
+.grow { width: 200px; height: 200px; margin:30px auto; background-color: #808080; text-align: center; color: #ffffff; font-size: 42px; }
+
+.grow:hover { transform: scale(1.2); transition: 0.5s; }
