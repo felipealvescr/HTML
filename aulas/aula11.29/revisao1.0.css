@@ -1,0 +1,19 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+h1 { margin: 20px 0px; background-color: antiquewhite; }
+
+header { background-color: #434342; width: 100vw; height: 100px; color: #ffffff; display: flex; justify-content: space-between; align-items: center; padding: 0px 30px; }
+
+.flex-div-container { display: flex; justify-content: space-evenly; width: 100vw; height: 300px; background-color: aqua; align-items: center;}
+
+.flex-div-section { width: 30%; height: 90%; background-color: blueviolet; }
+
+footer { background-color: yellowgreen; width: 100vw; height: 200px; }
+
+/* Fim layout em flex */
+
+/* Inicio layout grid sem area */
+
+.grid-container01 { grid-template-columns: repeat(1, 1fr); grid-template-rows: 80px 300px 200px; }
+
+/* Fim layout grid sem area */
